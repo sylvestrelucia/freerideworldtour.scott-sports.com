@@ -1,0 +1,173 @@
+@charset "UTF-8";
+body {
+	font-family: montserrat, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	background: #000 url("../images/fwt-bkgnd_scott-sports.jpg") no-repeat top center;
+}
+#mainbox {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	min-height: 1000px;
+!important
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+#header {
+	position: relative;
+	width: 950px;
+	height: 40px;
+	text-align: left;
+}
+#main {
+	position: relative;
+	margin: 0 auto;
+	height: 650px;
+}
+#contest {
+	width: 600px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#fwt-logos {
+	display: inline;
+	float: left;
+	width: 175px;
+	margin: 0;
+	padding: 0;
+}
+#live-stream {
+	display: inline;
+	float: left;
+	width: 600px;
+	margin-bottom: 0;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0;
+}
+#container {
+	background: none;
+	width: 600px;
+}
+#advertising {
+	display: inline;
+	float: left;
+	margin-left: 28px;
+}
+#slideshow {
+	position: relative;
+	width: 145px;
+	height: 592px;
+}
+#slideshow > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+/* button */
+.btn {
+	background: #5ada2c;
+	background-image: -webkit-linear-gradient(top, #65ff2f, #5ada2c);
+	background-image: -moz-linear-gradient(top, #65ff2f, #5ada2c);
+	background-image: -ms-linear-gradient(top, #65ff2f, #5ada2c);
+	background-image: -o-linear-gradient(top, #65ff2f, #5ada2c);
+	background-image: linear-gradient(to bottom, #65ff2f, #5ada2c);
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	color: #FFF;
+	font-size: 40px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 30px;
+	/*text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+	letter-spacing: 1px;
+	box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.2); */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.btn:hover {
+	background: #5ada2c;
+	background-image: -webkit-linear-gradient(top, #5ada2c, #65ff2f);
+	background-image: -moz-linear-gradient(top, #5ada2c, #65ff2f);
+	background-image: -ms-linear-gradient(top, #5ada2c, #65ff2f);
+	background-image: -o-linear-gradient(top, #5ada2c, #65ff2f);
+	background-image: linear-gradient(to bottom, #5ada2c, #65ff2f);
+	text-decoration: none;
+	color: #FFF;
+}
+.spacer {
+	background-image: url(../images/spacer.png);
+	height: 43px;
+}
+.spacer_top {
+	background-image: url(../images/spacer_top.png);
+	height: 43px;
+	margin-bottom: -43px;
+	margin-top: 20px;
+}
+.reset {
+	margin: 0px;
+	padding: 0px;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.grey_bg {
+	display: block;
+	/* background-image:url(../images/50_black.png); */
+	background-repeat: repeat;
+}
+.white {
+	/* background-color: #FFF; */
+	padding: 20px;
+	background-image: url(../images/50_black.png);
+	background-repeat: repeat;
+}
+.offset {
+	position: relative;
+}
+.shift_image {
+	position: relative;
+	left: -150px;
+}
+h3 {
+	font-size: 30px;
+	font-weight: 100;
+	color: #53ED0B;
+	padding: 0px;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+p {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 100;
+	color: #999;
+	text-align: left;
+	margin: 0px;
+}
+a, a:hover {
+	color: #666;
+}

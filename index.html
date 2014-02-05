@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Freeride World Tour Live Stream - SCOTT Sports</title>
+<link rel="stylesheet" href="css/styles.css" />
+
+<!-- Advertising mini Slider -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- Edgefonts -->
+<script src="http://use.edgefonts.net/montserrat:n4:all.js"></script>
+<script>
+	$(function() {
+	
+		$("#slideshow > div:gt(0)").hide();
+
+		setInterval(function() { 
+		  $('#slideshow > div:first')
+			.fadeOut(1000)
+			.next()
+			.fadeIn(1000)
+			.end()
+			.appendTo('#slideshow');
+		},  3000);
+		
+	});
+</script>
+
+<!-- FWT Player -->
+<script src="http://cdn4.mobilerider.com/assets/js/mr/embed/mobilerider.nojquery.min.js"></script>
+<script src="http://cdn4.mobilerider.com/videos/mobilestorefront/3030/assets/js/fwt.js"></script>
+</head>
+
+<body>
+<div id="mainbox">
+<div id="header"> <a href="http://www.scott-sports.com" target="_new"><img src="images/logo_scott-sports.png" alt="www.scott-sports.com" /></a> <img src="images/title_scott-sports 2.png" /> </div>
+<div id="main">
+  <div id="fwt-logos"> <img src="images/fwt-logos_scott-sports.png" /> </div>
+  <div id="live-stream">
+    <div id="container"></div>
+    <script>
+		fwt.live({
+		el: '#container',
+		media: 63742,
+		addonClassname: 'mr-partners',
+		twitterHeight: 250
+		});
+	</script> 
+  </div>
+  <div id="advertising">
+    <div id="slideshow">
+      <div> <a href="http://youtu.be/GmsgYD2_BiI"><img src="images/FWT-freeride-spirit_160x600_Wide-skyscrapper_SCOTT-Sports_2014.jpg" alt="TODO" width="160" height="600"></a> </div>
+      <div> <a href="http://www.scott-sports.com/global/en/products/2307419992180/ski-scott-scrapper-a-version-180/"><img src="images/Scrapper_160x600_Wide-skyscrapper_SCOTT-Sports_2014.jpg" alt="TODO" /></a> </div>
+      <div> <a href="http://www.scott-sports.com/global/de/video/wintersports/mips_testimonial_team/
+"><img src="images/MIPS-Testimonials_160x600_Wide-skyscrapper_SCOTT-Sports_2014.jpg" alt="TODO" /></a> </div>
+    </div>
+  </div>
+</div>
+<!-- end main -->
+
+<!-- Goggle image -->
+<div id="contest">
+  <div class="reset white">
+  <h3>WIN THE SCOTT FWT Goggles</h3>
+  <a class="btn" href="http://instagram.com/p/hyByG-w2Do" target="_blank">PARTICIPATE</a>
+    <p class="description">For every stop of the Freeride World Tour a video will be posted on the <a href="http://instagram.com/scottfreeski" target="_blank">@scottfeeski</a> Instagram account. Comment on the video for a chance to win one pair each time. Winners will be selected by the SCOTT FWT raffle committee, who will reach out right after the tour stop! Every winner will be announced on the <a href="http://instagram.com/scottfreeski" target="_blank">@scottfreeski</a> Instagram 48 hours after the FWT pro competition took place. Good luck and stay tuned!</p>
+  </div>
+    <div class="spacer_top reset"></div>
+  <div class="grey_bg"> <img src="images/fwt_goggles_900.png" alt="TODO" class="reset shift_image" /> </div>
+  
+  <!-- Instagram embed. Change ID when new clip
+  <div class="spacer reset"></div> 
+  <iframe src="http://instagram.com/p/ex8BmJQ2DD/embed/" width="600" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>-->
+</div>
+</div>
+<!-- end mainbox --> 
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36892258-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
